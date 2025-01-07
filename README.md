@@ -28,30 +28,30 @@ A aplicação **AgilStore** é um sistema simples para o gerenciamento de invent
 
 2. **Criar um ambiente virtual:**
 
-Navegue até o diretório do projeto e crie um ambiente virtual:
-    ```bash
+   Navegue até o diretório do projeto e crie um ambiente virtual:
+   ```bash
     python -m venv venv
 
-3. **Ativo ou ambiente virtual:**
-No Windows , use o seguinte comando:
-     ```bash
-     .\venv\Scripts\activate
-Sem MacOS/Linux , use:
-    ```bash
-    source venv/bin/activate
+3. **Ativo ou ambiente virtual:**   
+
+   - No Windows , use o seguinte comando:
+      ```bash
+      .\venv\Scripts\activate
+   
+   - Sem MacOS/Linux , use:
+       ```bash
+      source venv/bin/activate
 
 4. **Rodar a aplicação**
-Execute o arquivo principal para iniciar o aplicativo:
+   
+   Execute o arquivo principal para iniciar o aplicativo:
     ```bash
     python main.py
 
 ## Tecnologias Utiliza
-Python 3.x : Linguagem utilizada para o desenvolvimento da aplicação.
-JSON:  O formato JSON é utilizado para persistir os dados dos produtos no arquivo inventory.json. Ele permite salvar as informações de maneira estruturada e recuperá-las quando a aplicação for reiniciada.
+- Python 3.x : Linguagem utilizada para o desenvolvimento da aplicação.
+- JSON:  O formato JSON é utilizado para persistir os dados dos produtos no arquivo inventory.json. Ele permite salvar as informações de maneira estruturada e recuperá-las quando a aplicação for reiniciada.
 
 ## Funcionalidades Futuras (Opcionais)
-Filtragem de Produtos : Permite ao usuário filtrar os produtos por categoria, facilitando a busca por tipo de produto.
-Ordenação de Produtos : Adicione a opção de ordenar os produtos por nome, quantidade ou preço, permitindo que o usuário veja a lista de produtos de acordo com os critérios desejados.
-
-## Licença
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
+- Filtragem de Produtos : Permite ao usuário filtrar os produtos por categoria, facilitando a busca por tipo de produto.
+- Ordenação de Produtos : Adicione a opção de ordenar os produtos por nome, quantidade ou preço, permitindo que o usuário veja a lista de produtos de acordo com os critérios desejados.
